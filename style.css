@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --green:green;
+    --red:red;
+    --blue:blue;
+    --yellow:yellow;
+    --black:black;
+}
+
+.container{
+    width:50%;
+    height:100px;
+    margin: 100px 320px;
+    text-align: center;
+}
+.container button{
+    margin:10px;
+    margin-top: 25px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px 15px;
+    border:2px solid white;
+    
+}
+.green{
+    background: var(--green);
+    box-shadow: 6px 4px 2px green;
+}
+.red{
+    background: var(--red);
+    box-shadow: 6px 4px 2px red;
+}
+.blue{
+    background: var(--blue);
+    box-shadow: 6px 4px 2px blue;
+}
+.yellow{
+    background: var(--yellow);
+    box-shadow: 6px 4px 2px yellow;
+}
+.black{
+    background: var(--black);
+    box-shadow: 6px 4px 2px black;
+}
+.gray{
+    background: gray;
+    box-shadow: 6px 4px 2px gray;
+}
